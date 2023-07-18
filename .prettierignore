@@ -1,0 +1,21 @@
+# single files
+pnpm-lock.yaml
+.npmrc
+.nvmrc
+.pnpmrc
+.prettierignore
+.gitignore
+.DS_Store
+LICENSE
+
+# folders
+/dist
+/.vscode
+/.github
+/node_modules
+/src/assets/*
+/public
+
+# file types
+*.md
+*.txt

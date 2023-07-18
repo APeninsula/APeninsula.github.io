@@ -1,20 +1,36 @@
 {
-  "name": "apeninsula-website",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.0",
-    "vue-tsc": "^1.8.3"
-  }
+	"name": "apeninsula-website",
+	"description": "My Portfolio Website",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc && vite build",
+		"lint": "eslint \"**/*.{ts,vue}\"",
+		"format": "prettier --check \"**/**\"",
+		"lint-fix": "eslint --fix \"**/*.{ts,vue}\"",
+		"format-fix": "prettier --check --write \"**/**\" ",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@nabla/vite-plugin-eslint": "^1.5.0",
+		"@types/node": "^20.4.2",
+		"@typescript-eslint/eslint-plugin": "^6.1.0",
+		"@typescript-eslint/parser": "^6.1.0",
+		"@vitejs/plugin-vue": "^4.2.3",
+		"@vue/eslint-config-typescript": "^11.0.3",
+		"eslint": "^8.44.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-vue": "^9.15.1",
+		"prettier": "^3.0.0",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.0",
+		"vue-eslint-parser": "^9.3.1",
+		"vue-tsc": "^1.8.3"
+	}
 }
