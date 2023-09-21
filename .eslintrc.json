@@ -3,9 +3,9 @@
 	"ignorePatterns": [
 		"/src/assets/*",
 		"/dist/*",
-		"acronymWords.json",
 		"index.html",
-		"vite.config.ts"
+		"vite.config.ts",
+		"tailwind.config.ts"
 	],
 	"env": {
 		"browser": true,

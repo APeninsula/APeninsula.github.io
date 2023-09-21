@@ -1,13 +1,18 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
 
-const HelloWorld = import('./components/HelloWorld.vue')
+const HelloWorld = () => import('./components/HelloWorld.vue')
+const Home = () => import('./views/Home.vue')
 
 const routes: RouteRecordRaw[] = [
 	{
-		path: '/',
+		path: '/helloworld',
 		name: 'Hello World',
-		component: HelloWorld,
-		meta: { buttonName: 'Hello World' }
+		component: HelloWorld
+	},
+	{
+		path: '/',
+		name: 'Home',
+		component: Home
 	}
 ]
 const router = createRouter({
