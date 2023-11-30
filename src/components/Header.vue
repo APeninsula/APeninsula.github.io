@@ -16,7 +16,11 @@ onBeforeUnmount(() => {
 
 <template>
 	<div>
-		<h2>Header</h2>
-		<h3>Current Time: {{ currentTime.toLocaleTimeString() }}</h3>
+		<div class="text-3xl fw-300">Header</div>
+		<div class="text-2xl op50">
+			Current Time: {{ currentTime.toLocaleTimeString() }}
+		</div>
 	</div>
+	<div><router-link to="/HelloWorld">HelloWorld</router-link></div>
+	<div><router-link to="/">Home</router-link></div>
 </template>

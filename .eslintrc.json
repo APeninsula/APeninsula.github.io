@@ -4,8 +4,7 @@
 		"/src/assets/*",
 		"/dist/*",
 		"index.html",
-		"vite.config.ts",
-		"tailwind.config.ts"
+		"*.config.ts"
 	],
 	"env": {
 		"browser": true,
